@@ -8,7 +8,7 @@ A phishing email was detected on 2021-06-13. It contained a zipped Excel File th
 Investigation steps. ✅
 I ran a sandbox analysis of the attached Excel file and obtained c2 addresses. when i searched the c2 addresses on Log Management, i saw that the malicious excel file had beem ran by Lars. to furher confirm, i looked for the Lars source address on Endpoint Management and clarified that the LarsPRD device communicated with the malicious address.
 
-My Findings, Conclusion, and Recommended Response.
+My Findings, Conclusion, and Recommended Response. 🙋‍♀️
 I also examined the LarsPRD CMD history and saw that the regsvr32 commannd that is included in Excel 4.o macros has been run. 
 I flagged the alert as a true positive and escalated it to SOC 2 Analyst for further action.
 
